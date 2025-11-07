@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>图片下载页面</title>
+    <style>
+        body { text-align: center; font-family: sans-serif; margin-top: 50px; }
+        img { max-width: 80%; height: auto; margin-bottom: 30px; }
+        button, a.download-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        a.download-btn { display: inline-block; }
+    </style>
+</head>
+<body>
+    <h1>图片展示与下载</h1>
+    <img src="picture.jpg" alt="展示图片">
+    <br>
+    <!-- 下载按钮 -->
+    <a href="picture.jpg" download="picture.jpg" class="download-btn">下载</a>
+</body>
+</html>
